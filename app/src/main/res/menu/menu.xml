@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settingProfile"
+        android:title="setting profile" />
+    <item
+        android:id="@+id/record"
+        android:title="records" />
+
+    <item android:title="level" >
+        <menu>
+            <item
+                android:id="@+id/light"
+                android:title="light"/>
+
+            <item
+                android:id="@+id/normal"
+                android:title="normal"/>
+            <item
+                android:id="@+id/hard"
+                android:title="hard"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/history"
+        android:title="history"/>
+</menu>
